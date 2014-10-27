@@ -1,0 +1,19 @@
+---
+author: nhoppe
+comments: true
+date: 2009-11-23 12:38:38+00:00
+excerpt: In diesem Blog möchte ich meine Erfahrungen im Studium festhalten, die andere
+  interessieren oder ihnen vielleicht sogar helfen können.
+layout: post
+slug: hallo-welt-2
+title: Hallo Welt!
+wordpress_id: 140
+categories:
+- Allgemein
+---
+
+Hallo!
+
+In diesem Blog möchte ich meine Erfahrungen im Studium festhalten, die andere interessieren oder ihnen vielleicht sogar helfen können.
+
+Hoffentlich ist etwas für dich dabei!

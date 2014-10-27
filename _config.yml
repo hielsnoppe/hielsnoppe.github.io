@@ -1,0 +1,21 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            'Niels Hoppe'
+tagline:          'Another guy with a website'
+description:      'Another guy with a website.'
+url:              http://nielshoppe.de
+baseurl:          /
+
+author:
+  name:           'Niels Hoppe'
+  url:            http://nielshoppe.de
+
+paginate:         5
+paginate_path:    'articles/page/:num'
