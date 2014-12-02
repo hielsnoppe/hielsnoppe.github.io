@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            'Niels Hoppe'
 tagline:          'Another guy with a website'
 description:      'Another guy with a website.'
-url:              http://nielshoppe.de
+url:              http://hielsnoppe.github.io
 baseurl:          /
 
 author:
