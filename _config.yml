@@ -17,5 +17,5 @@ author:
   name:           'Niels Hoppe'
   url:            http://nielshoppe.de
 
-paginate:         10
+paginate:         5
 paginate_path:    'articles/page/:num'
