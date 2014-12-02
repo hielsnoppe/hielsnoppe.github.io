@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Normalizing quotes in Vim
 ---
 
