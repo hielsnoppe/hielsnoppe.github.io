@@ -35,7 +35,7 @@ description: My two-penn'orth
     {% if paginator.page == 2 %}
       <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">Newer</a>
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path }}">Newer</a>
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>
