@@ -41,8 +41,7 @@ Wenn wir es schaffen, gemeinsam ein gutes Lernwerk zu schreiben, haben natürlic
 
 **Wie kannst du mitmachen?**
 
-Du hast verschiedene Möglichkeiten, dich einzubringen:****
-
+Du hast verschiedene Möglichkeiten, dich einzubringen:
 
 
 	
@@ -53,5 +52,3 @@ Du hast verschiedene Möglichkeiten, dich einzubringen:****
 
 	
   * Finde andere Leute, die mithelfen möchten
-
-
