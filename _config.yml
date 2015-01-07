@@ -10,12 +10,12 @@ relative_permalinks: false
 title:            'Niels Hoppe'
 tagline:          'Another guy with a website'
 description:      'Another guy with a website.'
-url:              http://hielsnoppe.github.io
+url:              http://www.nielshoppe.de
 baseurl:          /
 
 author:
   name:           'Niels Hoppe'
-  url:            http://nielshoppe.de
+  url:            http://www.nielshoppe.de
 
 paginate:         5
 paginate_path:    'articles/page/:num'
