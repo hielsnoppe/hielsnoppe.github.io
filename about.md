@@ -34,6 +34,22 @@ Teaching assistant for XML-Technologies in Work Group Network-based Informations
 
 # Community Service
 
+**2014 - current**
+Member of the youth management board (secretary) of the regional dancesport association in Berlin [Berliner Tanzsportjugend][btsj]
+
+<!--- Mit 2012 bin ich mir nicht sicher -->
+**2012 - current**
+Member of the management board (youth director) of [Rot-Gold Berlin][rgb] sports club
+
+<!--
+**? - ?**
+Youth leader at  [Lindenkirchengemeinde][linde]
+-->
+
+[btsj]: http://btsj.de
+[rgb]: http://www.rotgold-berlin.de
+[linde]: http://lindenkirche.de
+
 # Activities
 
 **2009 - current**
