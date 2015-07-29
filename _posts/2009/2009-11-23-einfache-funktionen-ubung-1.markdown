@@ -22,6 +22,10 @@ Meine Lösungen zum Download: [uebung1.zip](http://www.nielshoppe.de/files/downl
 
 Die **letzte Aufgabe** hatte es ein wenig in sich. Darum stelle ich meinen Lösungsansatz an dieser Stelle noch einmal etwas genauer vor.
 
+
+
+
+
 <!-- more -->
 
 Gefordert ist die Lösung einer quadratischen Gleichung, von der die Parameter _a_, _b_ und _c_ der Normalenform _0 = ax^{2}+bx+c_ als Parameter an die Funktion übergeben werden.

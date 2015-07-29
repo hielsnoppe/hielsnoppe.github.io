@@ -22,6 +22,10 @@ Meine Lösungen zum Download: [uebung4.zip](http://www.nielshoppe.de/files/downl
 
 Interessant war der Teil mit den Bäumen, da diese ausbalanciert sein sollten. Meine Strategie, wie man in binäre Suchbäume einfügt, aus ihnen löscht und sie ausbalanciert, stelle ich hier vor:
 
+
+
+
+
 <!-- more -->
 
 Zuerst einmal das Grundgerüst, der Datentyp:

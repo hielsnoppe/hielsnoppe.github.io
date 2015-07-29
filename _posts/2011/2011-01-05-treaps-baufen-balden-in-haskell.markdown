@@ -16,7 +16,11 @@ tags:
 ---
 
 Die Datenstruktur des Binären Suchbaumes ist wohl den Meisten bekannt und die des Heaps auch. Die Kombination aus beiden ergibt den Treap (aus Tree und Heap) bzw. Baufen (aus Baum und Haufen), oder auch die Balde (aus Baum und Halde). Jeder Knoten besteht hat dabei einen Schlüssel und eine Priorität. Diese Datenstruktur eignet sich besonders zur Implementierung von Prioritätswarteschlangen.
-In einer Übung in Algorithmen und Programmierung III sollten nun Funktionen zum Einfügen in einen und Löschen aus einem Treap entwickelt werden.<!-- more -->
+In einer Übung in Algorithmen und Programmierung III sollten nun Funktionen zum Einfügen in einen und Löschen aus einem Treap entwickelt werden.
+
+
+
+<!-- more -->
 Dazu schreiben wir drei Funktionen in Haskell: Zum Einfügen `insert`, zum Löschen `delete` und als Hilfsfunktion `rotate`. Sie arbeiten jeweils rekursiv auf der Daten-
 struktur des Treaps, die wir wie folgt definieren:
 `

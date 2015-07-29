@@ -20,6 +20,10 @@ An dieser Stelle werde ich den von Frau Prof. Dr. Esponda in der Vorlesung vorge
 Ebenfalls interessant ist der [Parser von Herrn Prof. Dr. Rojas](http://www.inf.fu-berlin.de/lehre/SS09/PI02/docs/LambdaExpression.hs), der wohl als Grundlage diente.
 Der Code, den ich aus ihren Folien zusammengeschrieben habe, zum Download: [Lambda.hs](http://www.nielshoppe.de/files/downloads/inf/alp1_ws0910/Lambda.hs)
 
+
+
+
+
 <!-- more -->
 
 Aus der Prelude-Bibliothek werden die beiden Hilfsfunktionen "break" und "span" verwendet.

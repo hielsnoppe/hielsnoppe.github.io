@@ -22,6 +22,10 @@ Professor Mulzer sorgt in der Vorlesung "Höhere Algorithmik" nebst der Schau de
 
 Seit heute wissen wir nicht nur, was der j-te iterierte Logarithmus ist und dass die inverse Ackermann-Funktion für zwei vernünftige Zahlen (solche, die kleiner als 1 Phantastillion sind) kleiner-gleich 5 ergibt, nein, auch für das Leben in der grausamen Realität zwischen Vampiren, Werwölfen und jauchzenden Mädchen wappnet uns diese Vorlesung.
 
+
+
+
+
 <!-- more -->
 
 ![Biss zum Ende der Vorlesung - Filmplakat](http://nielshoppe.de/files/nielshoppe/news/inf/2011-05-12_biss-zum-ende-der-vorlesung-1.jpg)So wurde heute ein Filmplakat eines "sehr beliebten Films" verlost für eine richtige Antwort. Nun konnte diese keiner geben und nachdem wir nicht nur die Wahrheit über die nicht-Linearität der Laufzeit einer Folge von UNION-FIND-Operationen mit union-by-rank und Pfadkompression, sondern auch bezüglich des beworbenen Filmes geschaut hatten, wollte für das Plakat auch keine rechte Begeisterung mehr aufkommen. Es blieb biss zum Ende der Vorlesung ein Waise.

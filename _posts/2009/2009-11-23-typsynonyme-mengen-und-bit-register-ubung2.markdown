@@ -26,6 +26,10 @@ Meine Lösungen zum Download: [uebung2.zip](http://www.nielshoppe.de/files/downl
 
 Die Mengen bereiteten wenigen Probleme, die ersten beiden Aufgaben dagegen etwas mehr. Daher hier meine Lösungsansätze:
 
+
+
+
+
 <!-- more -->
 
 Diese Aufgabe hat zwar bei den Meisten funktioniert, die Lösung war aber oft sehr schreibintensiv.
