@@ -4,8 +4,13 @@ title: About
 description: $ whoami
 ---
 
-My name is Niels and I work, study, dance, live in Berlin, where I was born in 1991.
+My name is Niels and I work, study, [dance](./dance), live in Berlin, where I was born in 1991.
 Find a kind of resume and CV in the following and [contact me](mailto:42f23877@nielshoppe.de) if you like.
+
+<small>
+A note for recruiters:
+I am open to being contacted, but please be aware that I am currently a student, employed and quite happy with my job.
+</small>
 
 # Education
 
@@ -32,6 +37,20 @@ Teaching assistant for XML-Technologies in Work Group Network-based Informations
 [fub]: http://fu-berlin.de
 [tub]: http://tu-berlin.de
 
+# Certifications
+
+**2015**
+ITIL Foundations (in progress)
+
+**2013**
+ISTQB Certified Tester Foundation Level
+
+**2011**
+Microsoft Technology Associate: Windows Server Administration Fundamentals
+
+**2011**
+Microsoft Technology Associate: Security Fundamentals
+
 # Community Service
 
 **2014 - current**
@@ -53,4 +72,4 @@ Youth leader at  [Lindenkirchengemeinde][linde]
 # Activities
 
 **2009 - current**
-Competitive Ballroom Dancing
+[Competitive Ballroom Dancing](./dance)
