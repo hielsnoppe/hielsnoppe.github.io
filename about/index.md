@@ -4,7 +4,7 @@ title: About
 description: $ whoami
 ---
 
-My name is Niels and I work, study, [dance](./dance), live in Berlin, where I was born in 1991.
+My name is Niels and I work, study, dance, live in Berlin, where I was born in 1991.
 Find a kind of resume and CV in the following and [contact me](mailto:42f23877@nielshoppe.de) if you like.
 
 <small>
