@@ -72,4 +72,4 @@ Youth leader at  [Lindenkirchengemeinde][linde]
 # Activities
 
 **2009 - current**
-[Competitive Ballroom Dancing](./dance)
+Competitive Ballroom Dancing
