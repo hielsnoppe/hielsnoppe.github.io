@@ -4,8 +4,8 @@ title: About
 description: $ whoami
 ---
 
-My name is Niels and I work, study, [dance](./dance), live in Berlin, where I was born in 1991.
-Find a kind of resume and CV in the following and [contact me](mailto:42f23877@nielshoppe.de) if you like.
+My name is Niels and I work, study, dance, live in Berlin, where I was born in 1991.
+Find a kind of resume and CV in the following and [contact me](mailto:ygf9k4ge@nielshoppe.de) if you like.
 
 <small>
 A note for recruiters:
@@ -72,4 +72,4 @@ Youth leader at  [Lindenkirchengemeinde][linde]
 # Activities
 
 **2009 - current**
-[Competitive Ballroom Dancing](./dance)
+Competitive Ballroom Dancing

@@ -8,7 +8,6 @@ relative_permalinks: false
 
 # Setup
 title:            'Niels Hoppe'
-tagline:          'Another guy with a website'
 description:      'Another guy with a website.'
 url:              http://www.nielshoppe.de
 baseurl:          /
