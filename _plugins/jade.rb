@@ -18,7 +18,7 @@ module Jekyll
 
     def convert(content)
       begin
-        o, e, s = Open3.capture3("jade", :stdin_data => content)
+        o, e, s = Open3.capture3("jade -p ./", :stdin_data => content)
         puts(<<-eos
 Jade Error >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #{e}

@@ -1,0 +1,14 @@
+.sidebar
+  .container.sidebar-sticky
+    .sidebar-about
+      h1
+        a(href="{{ site.baseurl }}") {{ site.title }}
+      p.lead {{ page.description }}
+
+    nav.sidebar-nav
+        | {% include nav.html %}
+
+    p
+      | &copy; 2006 - {{ site.time | date: '%Y' }}.
+      a(href="{{ site.basepath }}/legal") Read legal stuff
+      | .

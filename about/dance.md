@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sheet
 title: Ballroom Dancing
 description: Like a dancer
 ---

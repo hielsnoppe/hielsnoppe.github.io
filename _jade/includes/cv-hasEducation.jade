@@ -1,0 +1,14 @@
+.row(id="{{ include.edu.@id }}")
+    .col-date
+        | {% include cv-date.html start=include.edu.eduStartDate end=include.edu.eduGradDate %}
+    .col-details
+        p
+            a.show-details-switch(href= "#" + "{{ include.edu.@id }}" )
+                | {{ include.edu.degreeType }}
+                | {% if include.edu.eduMajor %} in {{ include.edu.eduMajor }}{% endif %}
+            | {% if include.edu.grade %} ({{ include.edu.grade }}){% endif %}
+            br.hidden-md.hidden-lg
+            | at 
+            a(href="{{ include.edu.studiedIn.URL }}") {{ include.edu.studiedIn.Name }}
+        .description.hidden
+            | {{ include.edu.eduDescription }}
