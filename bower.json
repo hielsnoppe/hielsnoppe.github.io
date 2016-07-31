@@ -1,0 +1,21 @@
+{
+  "name": "hielsnoppe/my-website",
+  "version": "0.0.0",
+  "authors": [
+    "Niels Hoppe <mail@nielshoppe.de>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "bootstrap-sass": "~3.3.6"
+  },
+  "directory": "bower_components"
+}

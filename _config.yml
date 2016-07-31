@@ -6,6 +6,10 @@ highlighter:      pygments
 permalink:        pretty
 relative_permalinks: false
 
+# SASS/SCSS
+sass:
+  sass_dir: _scss
+
 # Setup
 title:            'Niels Hoppe'
 description:      'Another guy with a website.'
@@ -18,3 +22,13 @@ author:
 
 paginate:         5
 paginate_path:    'articles/page/:num'
+
+collections:
+  - data
+
+# Custom configuration
+
+languages: # site.languages
+  - abbr: DE
+  - abbr: EN
+  - abbr: FR

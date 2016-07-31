@@ -1,0 +1,32 @@
+extends ../layouts/card.jade
+
+block content
+    div(style="position:relative;height:100%;width:100%")
+        +bs-navbar()
+            //'Niels Hoppe')
+            +bs-navbar-nav().navbar-right
+                include ../partials/languages.jade
+        
+        .row
+            .col-xs-4(style="text-align:right")
+                | www&thinsp;.
+                br
+                a(href="contact.html") mail&thinsp;@
+
+            .col-xs-4(style="text-align:center")
+                img(style="width: 100%;", src="assets/images/hoppe.png", alt="Niels Hoppe")
+
+            .col-xs-4(style="text-align:left")
+                br
+                | .&thinsp;de
+
+        div(style="position:absolute;bottom:0;width:100%")
+            +bs-nav.nav-pills.nav-justified
+                +bs-nav-link("about.html") About
+                +bs-nav-link("#") Articles
+                +bs-nav-link("contact.html") Contact
+            //
+                +bs-nav-link("#") Who I am
+                +bs-nav-link("about.html") What I do
+                +bs-nav-link("#") What I think
+                +bs-nav-link("#") Contact me

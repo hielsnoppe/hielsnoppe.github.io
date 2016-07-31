@@ -1,0 +1,20 @@
+extends base.jade
+            
+append styles
+    link(rel="stylesheet", href="/assets/styles/sheet.css")
+    
+block body
+    #sheet
+            
+        +bs-navbar()
+            //'Niels Hoppe')
+            +bs-navbar-nav()
+                +bs-nav-link('card.html') Home
+                +bs-nav-link('about.html') About
+                +bs-nav-link('#') Articles
+                +bs-nav-link('contact.html') Contact
+                    
+            +bs-navbar-nav().navbar-right
+                include ../partials/languages.jade
+            
+        +jk-content()

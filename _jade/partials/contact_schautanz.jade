@@ -1,0 +1,86 @@
+include ../layouts/mixins/bootstrap
+
+.form-horizontal
+  
+  +bs-form-group()
+    h2 Schautanzantrag 
+  
+  +bs-form-group()
+    h3 Veranstalter
+        
+  +bs-form-group("Anschrift")
+    input.form-control(placeholder="Verein gegen Papierkrieg e.V., c/o Karl Kiebord")
+    
+  .form-group
+    label.control-label.col-sm-2 Straße, Nr.
+    .col-sm-8
+      input.form-control(placeholder="Straße")
+    .col-sm-2
+      input.form-control(placeholder="Hausnummer")
+      
+  .form-group
+    label.control-label.col-sm-2 PLZ, Ort
+    .col-sm-3
+      input.form-control(placeholder="Postleitzahl", type="number")
+    .col-sm-7
+      input.form-control(placeholder="Ort")
+      
+  +bs-form-group("Telefon")
+    input.form-control(placeholder="Telefon", type="tel")
+      
+  +bs-form-group()
+    .checkbox
+      label
+        input(type="checkbox")
+        |  Der Veranstalter ist Mitglied im 
+        abbr(title="Deutscher Olympischer Sportbund") DOSB
+        |  (nicht erforderlich).
+      
+  +bs-form-group()
+    h3 Veranstaltung
+    
+  +bs-form-group("Datum").has-feedback
+    input.form-control(placeholder="", type="date")
+    span.glyphicon.glyphicon-calendar.form-control-feedback(aria-hidden="true")
+  
+  +bs-form-group("Titel und Art")
+    input.form-control(placeholder="Ball für Mitglieder und Freunde des Vereins")
+  
+  +bs-form-group("Veranstaltungsort")
+    input.form-control(placeholder="z.B. Vereinsheim, Hotel Kumpanski, Gaststätte zur Schreibmaschine, ...")
+      
+  .form-group
+    label.control-label.col-sm-2 Straße, Nr.
+    .col-sm-8
+      input.form-control(placeholder="Straße")
+    .col-sm-2
+      input.form-control(placeholder="Hausnummer")
+      
+  .form-group
+    label.control-label.col-sm-2 PLZ, Ort
+    .col-sm-3
+      input.form-control(placeholder="Postleitzahl", type="number")
+    .col-sm-7
+      input.form-control(placeholder="Ort")
+      
+  .form-group
+    label.control-label.col-sm-2 Flächenmaß
+    .col-sm-2
+      input.form-control(placeholder="Länge", type="number")
+    .col-sm-2
+      input.form-control(placeholder="Breite", type="number")
+    .col-sm-6
+      p.help-block
+        | Bei einer nicht rechteckigen Fläche, geben Sie bitte den größten rechteckigen Ausschnitt an.
+    
+  +bs-form-group("Flächenbelag")
+    select.form-control
+      option() Parkett
+      option() PVC
+      option() Stein
+    
+  +bs-form-group()
+    .checkbox
+      label
+        input(type="checkbox", checked, disabled)
+        |  Es findet keine Fernsehübertragung der Veranstaltung statt.

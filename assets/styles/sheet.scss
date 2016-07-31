@@ -1,0 +1,85 @@
+---
+---
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700';
+
+@import '_bootstrap.scss';
+
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+/**
+ * Custom styles
+ */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+#show-past-switch.on,
+#show-present-switch.on,
+#show-future-switch.on
+{
+    text-decoration: none;
+}
+
+#show-past-switch.off:hover,
+#show-present-switch.off:hover,
+#show-future-switch.off:hover
+{
+    text-decoration: underline;
+}
+
+#show-past-switch.off,
+#show-present-switch.off,
+#show-future-switch.off,
+#show-past-switch.on:hover,
+#show-present-switch.on:hover,
+#show-future-switch.on:hover
+{
+    text-decoration: line-through;
+}
+
+#sheet {
+
+    @extend .container;
+
+    background-color: white;
+    padding-bottom: $padding-large-vertical;
+}
+
+#about {
+
+    .col-date {
+
+        @include make-md-column(4);
+
+        text-align: right;
+    }
+
+    .col-details {
+
+        @include make-md-column(8);
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+    #sheet {
+        @include paper;
+
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}

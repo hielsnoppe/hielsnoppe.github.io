@@ -1,0 +1,8 @@
+p a {
+    background-color: $gray-lighter;
+
+    &:hover,
+    &:focus {
+        background-color: $yellow-light;
+    }
+}

@@ -1,0 +1,47 @@
+---
+---
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700';
+
+@import '_bootstrap.scss';
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+#card {
+
+    @extend .container;
+
+    background-color: white;
+    //text-transform: uppercase;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+    #card {
+        @include paper;
+
+        width: 34em;
+        height: 20.8em;
+
+        font-size: 1em;
+        //transform: rotate(-2deg);
+
+        // https://www.w3.org/Style/Examples/007/center
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}
