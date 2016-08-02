@@ -1,0 +1,9 @@
+# Application stanza
+application {
+    name = "hielsnoppe.github.io"
+    type = "ruby"
+}
+
+customization {
+    ruby_version = "2.2.5"
+}

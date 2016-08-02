@@ -1,7 +1,0 @@
-{% if include.start and include.end %}
-{% if include.start == include.end %}{{ include.end }}
-{% else %}{{ include.start }} - {{ include.end }}
-{% endif %}
-{% else if include.start %}since {{ include.start }}
-{% else if include.end %}until {{ include.end }}
-{% endif %}
