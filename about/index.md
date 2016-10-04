@@ -14,8 +14,11 @@ I am open to being contacted, but please be aware that I am currently a student,
 
 # Education
 
-**2014 - current**
-Master of Science in Business Informatics (in progress) at [Technische Universität Berlin][tub]
+**2016 - current**
+Master of Science in Computer Science (in progress) at [Technische Universität Berlin][tub]
+
+**2014 - 2016**
+Bachelor of Science in Business Informatics (discontinued) at [Technische Universität Berlin][tub]
 
 **2009 - 2014**
 Bachelor of Science in Computer Science (2,3) at [Freie Universität Berlin][fub]
@@ -40,7 +43,7 @@ Teaching assistant for XML-Technologies in Work Group Network-based Informations
 # Certifications
 
 **2015**
-ITIL Foundations (in progress)
+ITIL Foundations
 
 **2013**
 ISTQB Certified Tester Foundation Level
@@ -54,7 +57,7 @@ Microsoft Technology Associate: Security Fundamentals
 # Community Service
 
 **2014 - current**
-Member of the youth management board (secretary) of the regional dancesport association in Berlin [Berliner Tanzsportjugend][btsj]
+Member of the youth management board (treasurer, secretary until 2015) of the regional dancesport association in Berlin [Berliner Tanzsportjugend][btsj]
 
 <!--- Mit 2012 bin ich mir nicht sicher -->
 **2012 - current**
