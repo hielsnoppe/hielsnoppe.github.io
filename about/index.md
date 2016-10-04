@@ -29,7 +29,7 @@ Abitur (2,1) at [Gymnasium Steglitz](http://gymnasiumsteglitz.de) in Berlin
 # Work and Teaching Experience
 
 **2011 - current**
-Webdeveloper at [Newsletter2Go GmbH](https://www.newsletter2go.com)
+Software Developer at [Newsletter2Go GmbH](https://www.newsletter2go.com)
 
 **2013 - 2014**
 Student assistant in Work Group Network-based Informationsystems in the Department of Computer Science at [Freie Universität Berlin][fub]
