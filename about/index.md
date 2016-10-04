@@ -1,5 +1,5 @@
 ---
-layout: sheet
+layout: page
 title: About
 ---
 
