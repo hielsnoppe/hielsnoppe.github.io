@@ -7,11 +7,6 @@ description: $ whoami
 My name is Niels and I work, study, dance, live in Berlin, where I was born in 1991.
 Find a kind of resume and CV in the following and [contact me](mailto:ygf9k4ge@nielshoppe.de) if you like.
 
-<small>
-A note for recruiters:
-I am open to being contacted, but please be aware that I am currently a student, employed and quite happy with my job.
-</small>
-
 # Education
 
 **2016 - current**
@@ -28,7 +23,7 @@ Abitur (2,1) at [Gymnasium Steglitz](http://gymnasiumsteglitz.de) in Berlin
 
 # Work and Teaching Experience
 
-**2011 - current**
+**2011 - 2016**
 Software Developer at [Newsletter2Go GmbH](https://www.newsletter2go.com)
 
 **2013 - 2014**
