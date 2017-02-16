@@ -1,181 +1,204 @@
 ---
-layout: page
+layout: sheet
 title: About
 ---
-
-My name is Niels and I work, study, <a href="/about/dance">dance</a>, live in Berlin, where I was born in 1991.
-Find a kind of resume and curriculum vitae in the following.
-{% include cv-show-hide-text.html %}
-Feel free to <a href="/contact">contact me</a> if you like.
-
+        <article xmlns:cv="http://rdfs.org/resume-rdf/cv.rdfs#" xmlns:cvx="http://vocab.nielshoppe.de/resume-rdf#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" typeof="cv:CV"><header><h1>Curriculum vitae</h1>
+<div class="row">
+<div class="col-md-8">
+<p>
+                My name is Niels and I work, study, <a href="/about/dance">dance</a>, live in Berlin, where I was born in 1991.
+                Find a kind of resume and curriculum vitae in the following.
+                You can show or hide
+                <a class="on" id="show-past-switch" href="#">past</a>
+                or
+                <a class="on" id="show-present-switch" href="#">present</a>
+                activities and achievements.
+                Feel free to <a href="/contact">contact me</a> if you like.
+            </p>
 <p class="small">A note for recruiters: I am open to being contacted, but please be aware that I am currently a student.</p>
-
-<!--
-http://rdfs.org/resume-rdf/
--->
-
-<h2>Education</h2>
-
-<div class="row" id="">
-    <div class="col-date col-md-2">until 2030</div>
-    <div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#">Master of Business Administration
-</a><br class="hidden-md hidden-lg"/>at <a href="http://mitsloan.mit.edu">MIT Sloan School of Management</a></p>
-<div class="description hidden"></div>
+</div>
+<div class="col-md-4" style="text-align:center"><img src="http://placehold.it/200x300"></div>
+</div></header><section class="vcalendar"><h1>Education</h1>
+<div class="row vevent" id="edu-tub-2016">
+<div class="col-date col-md-2">since <time class="dtstart">2016</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:degreeType">Master of Science</span> in <span property="cv:eduMajor">Computer Science</span> (in progress) <br class="hidden-md hidden-lg"> at <a class="url fn org" href="http://tu-berlin.de">Technische Universität Berlin</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#edu-tub-2016-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
-
-<div class="row" id=""><div class="col-date col-md-2">since 2016
-
+<details class="collapse" id="edu-tub-2016-details"><summary>Selected courses</summary><div class="row vevent" id="">
+<div class="col-date col-md-2">
+<time class="dtstart">2016</time> - <time class="dtend">2017-02-18</time>
 </div>
-<div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#">Master of Science
- in Computer Science</a> (in progress)<br class="hidden-md hidden-lg"/>at <a href="http://tu-berlin.de">Technische Universität Berlin</a></p>
-<div class="description hidden"></div>
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">Advanced Web Technologies Project</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
-
-<div class="row" id=""><div class="col-date col-md-2">
-2014 - 2016
-
-
+<details class="collapse" id="-details"></details><div class="row vevent" id="">
+<div class="col-date col-md-2">
+<time class="dtstart">2016</time> - <time class="dtend">2017-02-22</time>
 </div>
-<div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#">Bachelor of Science
- in Business Informatics</a> (discontinued)<br class="hidden-md hidden-lg"/>at <a href="http://tu-berlin.de">Technische Universität Berlin</a></p>
-<div class="description hidden"></div>
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">Internet of Services Lab</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
-
-<div class="row" id=""><div class="col-date col-md-2">
-2009 - 2014
-
-
+<details class="collapse" id="-details"></details><div class="row vevent" id="">
+<div class="col-date col-md-2">
+<time class="dtstart"></time> - <time class="dtend"></time>
 </div>
-<div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#">Bachelor of Science
- in Computer Science</a> (2,3)<br class="hidden-md hidden-lg"/>at <a href="http://fu-berlin.de">Freie Universität Berlin</a></p>
-<div class="description hidden"></div>
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">Cloud Prototyping</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
-
-<div class="row" id=""><div class="col-date col-md-2">until 2009
-
+<details class="collapse" id="-details"></details><div class="row vevent" id="">
+<div class="col-date col-md-2">
+<time class="dtstart"></time> - <time class="dtend"></time>
 </div>
-<div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#">Abitur
-</a> (2,1)<br class="hidden-md hidden-lg"/>at <a href="http://gymnasiumsteglitz.de">Gymnasium Steglitz</a></p>
-<div class="description hidden"></div>
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">Advanced Information Modeling</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
-
-<h2>Work and Teaching Experience</h2>
-
-<div class="row" id=""><div class="col-date col-md-2">until 2025
-
+<details class="collapse" id="-details"></details><div class="row vevent" id="">
+<div class="col-date col-md-2">
+<time class="dtstart"></time> - <time class="dtend"></time>
 </div>
-<div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#"></a><br class="hidden-md hidden-lg"/> at <a href=""></a></p>
-<div class="description hidden"></div>
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">Advanced Information Management 1: Heterogeneous Distributed Information Systems</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
-
-<div class="row" id=""><div class="col-date col-md-2">until 2020
-
+<details class="collapse" id="-details"></details></details><div class="row vevent" id="edu-tub-2014">
+<div class="col-date col-md-2">
+<time class="dtstart">2014</time> - <time class="dtend">2016</time>
 </div>
-<div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#"></a><br class="hidden-md hidden-lg"/> at <a href=""></a></p>
-<div class="description hidden"></div>
-</div>
-</div>
-
-<div class="row" id=""><div class="col-date col-md-2">2011 - 2016</div>
-<div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#">Software developer</a>
-    <br class="hidden-md hidden-lg"/> at <a href="https://www.newsletter2go.com">Newsletter2Go GmbH</a></p>
-<div class="description hidden">
-    * Editor
-    * Templates
-    * Picify
-    * Integrations
-        - Plugins (WordPress, Joomla!, ...)
-    * Design and implementation
-    * Management activities
-        - Contractor coordination
-    All roles involved development and operational activities and were full-stack mentality.
-    Full-stack Development and Operations
+<div class="col-details col-sm-10">
+<span property="cv:degreeType">Bachelor of Science</span> in <span property="cv:eduMajor">Business Informatics</span> (discontinued) <br class="hidden-md hidden-lg"> at <a class="url fn org" href="http://tu-berlin.de">Technische Universität Berlin</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#edu-tub-2014-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
+<details class="collapse" id="edu-tub-2014-details"><summary>Selected courses</summary></details><div class="row vevent" id="edu-fub-2009">
+<div class="col-date col-md-2">
+<time class="dtstart">2009</time> - <time class="dtend">2014</time>
 </div>
-
-<div class="row" id=""><div class="col-date col-md-2">
-2013 - 2014
-
-
-</div>
-<div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#">Student assistant</a><br class="hidden-md hidden-lg"/> at <a href="http://fu-berlin.de">Freie Universität Berlin</a></p>
-<div class="description hidden">In Work Group Network-based Informationsystems in the Department of Computer Science</div>
+<div class="col-details col-sm-10">
+<span property="cv:degreeType">Bachelor of Science</span> in <span property="cv:eduMajor">Computer Science</span> (2,3) <br class="hidden-md hidden-lg"> at <a class="url fn org" href="http://fu-berlin.de">Freie Universität Berlin</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#edu-fub-2009-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
-
-<div class="row" id=""><div class="col-date col-md-2">
-2012 - 2014
+<details class="collapse" id="edu-fub-2009-details"><summary>Selected courses</summary><div class="row vevent" id="cert-2013-istqb-tester">
+<div class="col-date col-md-2">until <time class="dtend">2013</time>
 </div>
-<div class="col-details col-md-10">
-<p><a class="show-details-switch" href="#">Teaching assistant</a><br class="hidden-md hidden-lg"/> at <a href="http://fu-berlin.de">Freie Universität Berlin</a></p>
-<div class="description hidden">In course XML-Technologies in Work Group Network-based Informationsystems in the Department of Computer Science
-
-    * XML basics, XLink
-    * DTDs and XML Schema
-    * XPath, XQuery and XSLT
-    * Sematic Web and Linked Data basics
-    * Design and evaluation of the written exam
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">ISTQB Certified Tester Foundation Level</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2013-istqb-tester-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
+<details class="collapse" id="cert-2013-istqb-tester-details"></details></details><div class="row vevent" id="">
+<div class="col-date col-md-2">until <time class="dtend">2009</time>
 </div>
-
-<pre>
-"@type": http://rdfs.org/resume-rdf/cv.rdfs#CV
-"@context": cv.context.json
-
-Certifications:
-- "@id": _:cert-2016-itil
-  startDate: '2016'
-  endDate: '2016'
-  otherInfoDescription: ITIL Foundations
-- "@id": cert-2013-testing
-  startDate: '2013'
-  endDate: '2013'
-  otherInfoDescription: ISTQB Certified Tester Foundation Level
-- "@id": cert-2011-server
-  startDate: '2011'
-  endDate: '2011'
-  otherInfoDescription: 'Microsoft Technology Associate: Windows Server Administration
-    Fundamentals'
-- "@id": cert-2011-security
-  startDate: '2011'
-  endDate: '2011'
-  otherInfoDescription: 'Microsoft Technology Associate: Security Fundamentals'
-
-Community Service:
-- startDate: '2014'
-  otherInfoType: http://rdfs.org/resume-rdf/base.rdfs#SocialActivities
-  otherInfoDescription: Member of the management board (secretary) of <a href="http://btsj.de">Berliner
-    Tanzsportjugend</a> (youth section of the regional dancesport association in
-    Berlin)
-- startDate: '2012'
-  otherInfoType: http://rdfs.org/resume-rdf/base.rdfs#SocialActivities
-  otherInfoDescription: Member of the management board (youth director) of <a href="http://www.rotgold-berlin.de">Rot-Gold
-    Berlin</a> (sports club)
-- hidden: true
-  startDate: "?"
-  endDate: "?"
-  otherInfoType: http://rdfs.org/resume-rdf/base.rdfs#SocialActivities
-  otherInfoDescription: Youth leader at <a href="http://lindenkirche.de">Lindenkirchengemeinde</a>
-
-Activities:
-- startDate: '2008'
-  otherInfoType: http://rdfs.org/resume-rdf/base.rdfs#Interests
-  otherInfoDescription: Competitive Ballroom Dancing
-</pre>
+<div class="col-details col-sm-10">
+<span property="cv:degreeType">Abitur</span> (2,1) <br class="hidden-md hidden-lg"> at <a class="url fn org" href="http://gymnasiumsteglitz.de">Gymnasium Steglitz</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="-details"><summary>Selected courses</summary></details></section><section class="vcalendar"><h1>Work and Teaching Experience</h1>
+<div class="row vevent" id="work-newsletter2go-2011">
+<div class="col-date col-md-2">
+<time class="dtstart">2011</time> - <time class="dtend">2016-12</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:jobTitle">Software Developer</span><br class="hidden-md hidden-lg"> at <a class="url fn org" href="https://www.newsletter2go.com">Newsletter2Go GmbH</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#work-newsletter2go-2011-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="work-newsletter2go-2011-details">
+                    * Editor
+                    * Templates
+                    * Picify
+                    * Integrations
+                    - Plugins (WordPress, Joomla!, ...)
+                    * Design and implementation
+                    * Management activities
+                    - Contractor coordination
+                    All roles involved development and operational activities and were full-stack mentality.
+                    Full-stack Development and Operations
+                </details><div class="row vevent" id="work-fub-2013">
+<div class="col-date col-md-2">
+<time class="dtstart">2013</time> - <time class="dtend">2014</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:jobTitle">Student assistant</span><br class="hidden-md hidden-lg"> at <a class="url fn org" href="http://fu-berlin.de">Freie Universtität Berlin</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#work-fub-2013-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="work-fub-2013-details">
+                    <p>In Work Group Network-based Informationsystems in the Department of Computer Science</p>
+                </details><div class="row vevent" id="work-fub-2012">
+<div class="col-date col-md-2">
+<time class="dtstart">2012</time> - <time class="dtend">2014</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:jobTitle">Teaching assistant</span><br class="hidden-md hidden-lg"> at <a class="url fn org" href="http://fu-berlin.de">Freie Universtität Berlin</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#work-fub-2012-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="work-fub-2012-details">
+                    <p>In course XML-Technologies in Work Group Network-based Informationsystems in the Department of Computer Science</p>
+                    <ul>
+                        <li>XML basics, XLink</li>
+                        <li>DTDs and XML Schema</li>
+                        <li>XPath, XQuery and XSLT</li>
+                        <li>Sematic Web and Linked Data basics</li>
+                        <li>Design and evaluation of the written exam</li>
+                    </ul>
+                </details></section><section><h1>Certifications</h1>
+<div class="row vevent" id="cert-2016-itil">
+<div class="col-date col-md-2">until <time class="dtend">2016</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">ITIL Foundations</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2016-itil-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="cert-2016-itil-details"></details><div class="row vevent" id="cert-2013-istqb-tester">
+<div class="col-date col-md-2">until <time class="dtend">2013</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">ISTQB Certified Tester Foundation Level</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2013-istqb-tester-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="cert-2013-istqb-tester-details"></details><div class="row vevent" id="cert-2011-mta-server">
+<div class="col-date col-md-2">until <time class="dtend">2011</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">Microsoft Technology Associate: Windows Server Administration Fundamentals</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2011-mta-server-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="cert-2011-mta-server-details"></details><div class="row vevent" id="cert-2011-mta-security">
+<div class="col-date col-md-2">until <time class="dtend">2011</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:courseTitle">Microsoft Technology Associate: Security Fundamentals</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2011-mta-security-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="cert-2011-mta-security-details"></details></section><section class="vcalendar"><h1>Community Service</h1>
+<div class="row vevent" id="">
+<div class="col-date col-md-2">since <time class="dtstart">2016</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:jobTitle">Treasurer</span><br class="hidden-md hidden-lg"> at <a class="url fn org" href="http://btsj.de">Berliner Tanzsportjugend</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="-details">
+                    Member of the management board
+                </details><div class="row vevent" id="">
+<div class="col-date col-md-2">since <time class="dtstart">2012</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:jobTitle">Youth director</span><br class="hidden-md hidden-lg"> at <a class="url fn org" href="http://rotgold-berlin.de">Rot-Gold Berlin e.V.</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="-details">
+                    Member of the management board
+                </details><div class="row vevent" id="">
+<div class="col-date col-md-2">
+<time class="dtstart">2014</time> - <time class="dtend">2016</time>
+</div>
+<div class="col-details col-sm-10">
+<span property="cv:jobTitle">Secretary</span><br class="hidden-md hidden-lg"> at <a class="url fn org" href="http://btsj.de">Berliner Tanzsportjugend</a><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
+</div>
+</div>
+<details class="collapse" id="-details">
+                    Member of the management board
+                </details></section></article>
