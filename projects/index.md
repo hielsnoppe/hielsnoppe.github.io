@@ -7,6 +7,8 @@ Lorem ipsum dolor sit amet. Lorem ipsum.
 
 ## Coding
 
-* [phpcss](phpcss)
+* [RDFDAV](rdfdav)
+* [PHPCSS](phpcss)
 * [php-json](php-json)
-* [haskell-playground](haskell-playground)
+* [Haskell playground](haskell-playground)
+* [PHP playground](php-playground)

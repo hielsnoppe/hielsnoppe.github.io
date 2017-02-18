@@ -8,11 +8,7 @@ title: About
 <p>
                 My name is Niels and I work, study, <a href="/about/dance">dance</a>, live in Berlin, where I was born in 1991.
                 Find a kind of resume and curriculum vitae in the following.
-                You can show or hide
-                <a class="on" id="show-past-switch" href="#">past</a>
-                or
-                <a class="on" id="show-present-switch" href="#">present</a>
-                activities and achievements.
+                {% include cv-show-hide-text.html %}
                 Feel free to <a href="/contact">contact me</a> if you like.
             </p>
 <p class="small">A note for recruiters: I am open to being contacted, but please be aware that I am currently a student.</p>
@@ -43,25 +39,19 @@ title: About
 </div>
 </div>
 <details class="collapse" id="-details"></details><div class="row vevent" id="">
-<div class="col-date col-md-2">
-<time class="dtstart"></time> - <time class="dtend"></time>
-</div>
+<div class="col-date col-md-2"><time class="dtstart dtend"></time></div>
 <div class="col-details col-sm-10">
 <span property="cv:courseTitle">Cloud Prototyping</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
 <details class="collapse" id="-details"></details><div class="row vevent" id="">
-<div class="col-date col-md-2">
-<time class="dtstart"></time> - <time class="dtend"></time>
-</div>
+<div class="col-date col-md-2"><time class="dtstart dtend"></time></div>
 <div class="col-details col-sm-10">
 <span property="cv:courseTitle">Advanced Information Modeling</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
 <details class="collapse" id="-details"></details><div class="row vevent" id="">
-<div class="col-date col-md-2">
-<time class="dtstart"></time> - <time class="dtend"></time>
-</div>
+<div class="col-date col-md-2"><time class="dtstart dtend"></time></div>
 <div class="col-details col-sm-10">
 <span property="cv:courseTitle">Advanced Information Management 1: Heterogeneous Distributed Information Systems</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
@@ -83,8 +73,7 @@ title: About
 </div>
 </div>
 <details class="collapse" id="edu-fub-2009-details"><summary style="font-weight:bold">Selected courses</summary><div class="row vevent" id="cert-2013-istqb-tester">
-<div class="col-date col-md-2">until <time class="dtend">2013</time>
-</div>
+<div class="col-date col-md-2"><time class="dtstart dtend">2013</time></div>
 <div class="col-details col-sm-10">
 <span property="cv:courseTitle">ISTQB Certified Tester Foundation Level</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2013-istqb-tester-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
@@ -207,29 +196,25 @@ title: About
                     <p>Editor, Zend</p>
                 </details></section><section><h1>Certifications</h1>
 <div class="row vevent" id="cert-2016-itil">
-<div class="col-date col-md-2">until <time class="dtend">2016</time>
-</div>
+<div class="col-date col-md-2"><time class="dtstart dtend">2016</time></div>
 <div class="col-details col-sm-10">
 <span property="cv:courseTitle">ITIL Foundations</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2016-itil-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
 <details class="collapse" id="cert-2016-itil-details"></details><div class="row vevent" id="cert-2013-istqb-tester">
-<div class="col-date col-md-2">until <time class="dtend">2013</time>
-</div>
+<div class="col-date col-md-2"><time class="dtstart dtend">2013</time></div>
 <div class="col-details col-sm-10">
 <span property="cv:courseTitle">ISTQB Certified Tester Foundation Level</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2013-istqb-tester-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
 <details class="collapse" id="cert-2013-istqb-tester-details"></details><div class="row vevent" id="cert-2011-mta-server">
-<div class="col-date col-md-2">until <time class="dtend">2011</time>
-</div>
+<div class="col-date col-md-2"><time class="dtstart dtend">2011</time></div>
 <div class="col-details col-sm-10">
 <span property="cv:courseTitle">Microsoft Technology Associate: Windows Server Administration Fundamentals</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2011-mta-server-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
 </div>
 <details class="collapse" id="cert-2011-mta-server-details"></details><div class="row vevent" id="cert-2011-mta-security">
-<div class="col-date col-md-2">until <time class="dtend">2011</time>
-</div>
+<div class="col-date col-md-2"><time class="dtstart dtend">2011</time></div>
 <div class="col-details col-sm-10">
 <span property="cv:courseTitle">Microsoft Technology Associate: Security Fundamentals</span><a data-toggle="collapse" class="pull-right" title="Show details" href="#cert-2011-mta-security-details"><span class="caret"></span><span class="sr-only">Show details</span></a>
 </div>
