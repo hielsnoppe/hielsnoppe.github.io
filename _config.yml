@@ -23,14 +23,15 @@ paginate_path: 'articles/page/:num'
 
 # Custom configuration
 
+source: site
 destination: /var/www/public
-exclude:
-  - bower.json
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-  - Vagrantfile
+#exclude:
+#  - bower.json
+#  - Gemfile
+#  - Gemfile.lock
+#  - LICENSE.md
+#  - README.md
+#  - Vagrantfile
 
 my_theme: my-website-theme
 languages: # site.languages
