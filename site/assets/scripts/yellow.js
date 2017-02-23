@@ -32,11 +32,6 @@ $(document).ready(function () {
         $(this).toggleClass('on off');
         $('.future').toggle($(this).hasClass('on'));
     });
-
-    $(".show-details-switch").click(function () {
-
-        $(this).parent().next('.description').toggleClass('hidden');
-    });
 });
 
 })(jQuery);

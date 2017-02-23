@@ -1,0 +1,3 @@
+[submodule "_themes/my-website-theme"]
+	path = site/_themes/my-website-theme
+	url = git@gitlab.com:hielsnoppe/my-website-theme.git
