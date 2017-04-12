@@ -18,7 +18,7 @@ DE - 12161 Berlin
 </address>
 
 **Telefon:** +4930 531 425 77<br />
-**E-Mail:** <ygf9k4ge@nielshoppe.de><br />
+**E-Mail:** <zt58afzz@nielshoppe.de><br />
 **Steuernummer:** 24/353/00314
 
 Der Nutzung von insbesondere im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien widerspreche ich hiermit ausdrücklich.
