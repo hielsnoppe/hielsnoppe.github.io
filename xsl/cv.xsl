@@ -32,44 +32,112 @@ title: About
     <xsl:template match="cv:CV">
         <article typeof="cv:CV">
             <header>
-                <h1>Curriculum vitae</h1>
+                <h1>Niels Hoppe <small>curriculum vitae</small></h1>
+
+                <xsl:copy-of select="cv:cvDescription/*"/>
 
                 <div class="row">
-                    <div class="col-md-8">
-                        <xsl:copy-of select="cv:cvDescription/*"/>
-                    </div>
-                    <div class="col-md-4" style="text-align:center">
-                        <img src="http://placehold.it/200x300"/>
+                    <dl class="col-sm-6">
+                        <div class="row">
+                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Born:</dt>
+                            <dd class="col-details col-sm-6">June 8, 1991</dd>
+                        </div>
+
+                        <div class="row">
+                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Address:</dt>
+                            <dd class="col-details col-sm-6">Odenwaldstr. 9<br />DE - 12161 Berlin</dd>
+                        </div>
+
+                        <div class="row">
+                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Email:</dt>
+                            <dd class="col-details col-sm-6">
+                                <a href="/contact">Contact form</a>
+                            </dd>
+                        </div>
+
+                        <div class="row">
+                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Phone:</dt>
+                            <dd class="col-details col-sm-6">
+                                <a href="tel:+493053142577">+49 30 53 14 25 77</a>
+                            </dd>
+                        </div>
+
+                        <div class="row">
+                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Mobile:</dt>
+                            <dd class="col-details col-sm-6">
+                                <a href="/contact">On request</a>
+                            </dd>
+                        </div>
+
+                        <div class="row">
+                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">LinkedIn:</dt>
+                            <dd class="col-details col-sm-6">
+                                <a href="https://www.linkedin.com/in/hielsnoppe">@hielsnoppe</a>
+                            </dd>
+                        </div>
+
+                        <!--
+                        <div class="row">
+                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">StackOverflow Careers:</dt>
+                            <dd class="col-details col-sm-6">
+                                <a href="https://www.linkedin.com/in/hielsnoppe">@hielsnoppe</a>
+                            </dd>
+                        </div>
+                        -->
+                    </dl>
+
+                    <div class="col-md-6" style="text-align:center">
+                        <img src="http://placehold.it/150x200"/>
                     </div>
                 </div>
             </header>
 
             <section class="vcalendar">
-                <h1>Education</h1>
-                <xsl:apply-templates select="cv:hasEducation/cv:Education">
-                    <xsl:sort select="concat(cv:eduEndDate, substring('9999-99-99', 1 div not(cv:eduEndDate)))" order="descending"/>
-                </xsl:apply-templates>
-            </section>
-
-            <section class="vcalendar">
-                <h1>Work and Teaching Experience</h1>
+                <h1 class="h2">Work and teaching experience</h1>
                 <xsl:apply-templates select="cv:hasWorkHistory[not(@cvx:category='social')]/cv:WorkHistory">
                     <xsl:sort select="concat(cv:endDate, substring('9999-99-99', 1 div not(cv:endDate)))" order="descending"/>
                 </xsl:apply-templates>
             </section>
 
+            <section class="vcalendar">
+                <h1 class="h2">Education</h1>
+                <xsl:apply-templates select="cv:hasEducation/cv:Education">
+                    <xsl:sort select="concat(cv:eduEndDate, substring('9999-99-99', 1 div not(cv:eduEndDate)))" order="descending"/>
+                </xsl:apply-templates>
+            </section>
+
             <section>
-                <h1>Certifications</h1>
+                <h1 class="h2">Certifications</h1>
                 <xsl:apply-templates select="cv:hasCourse/cv:Course[@cv:isCertification='True']">
                     <xsl:sort select="concat(cv:courseFinishDate, substring('9999-99-99', 1 div not(cv:courseFinishDate)))" order="descending"/>
                 </xsl:apply-templates>
             </section>
 
             <section class="vcalendar">
-                <h1>Community Service</h1>
+                <h1 class="h2">Other activities</h1>
                 <xsl:apply-templates select="cv:hasWorkHistory[@cvx:category='social']/cv:WorkHistory">
                     <xsl:sort select="concat(cv:endDate, substring('9999-99-99', 1 div not(cv:endDate)))" order="descending"/>
                 </xsl:apply-templates>
+
+                <div class="row vevent" style="padding-top: 0.5em; padding-bottom: 0.5em">
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="@id"/>
+                    </xsl:attribute>
+
+                    <div class="col-date col-sm-3" style="text-align:right">
+                        since
+                        <time class="dtstart" style="display:block">2008</time>
+                    </div>
+
+                    <div class="col-details col-sm-9">
+                        <p><a href="/about/dance">Competitive ballroom dancing</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h1 class="h2">Languages</h1>
+                <p>German native, English fluent spoken and written (C1 in <abbr title="Common European Frame of Reference for Languages">CEFR</abbr>)</p>
             </section>
         </article>
     </xsl:template>
@@ -84,30 +152,30 @@ title: About
             <xsl:choose>
                 <xsl:when test="$startDate and not($endDate)">
                     <xsl:text>since </xsl:text>
-                    <time class="dtstart">
-                        <xsl:value-of select="substring($startDate, 1, 7)"/>
+                    <time class="dtstart" style="display:block">
+                        <xsl:value-of select="concat('{{ &quot;', $startDate, '-01&quot; | date: &quot;%B %Y&quot; }}')"/>
                     </time>
                 </xsl:when>
                 <xsl:when test="$endDate and not($startDate)">
                     <xsl:text>until </xsl:text>
-                    <time class="dtend">
-                        <xsl:value-of select="substring($endDate, 1, 7)"/>
+                    <time class="dtend" style="display:block">
+                        <xsl:value-of select="concat('{{ &quot;', $endDate, '-01&quot; | date: &quot;%B %Y&quot; }}')"/>
                     </time>
                 </xsl:when>
                 <xsl:when test="$startDate and $endDate">
                     <xsl:choose>
                         <xsl:when test="$startDate = $endDate">
                             <time class="dtstart dtend">
-                                <xsl:value-of select="substring($startDate, 1, 7)"/>
+                                <xsl:value-of select="concat('{{ &quot;', $startDate, '-01&quot; | date: &quot;%B %Y&quot; }}')"/>
                             </time>
                         </xsl:when>
                         <xsl:otherwise>
-                            <time class="dtstart">
-                                <xsl:value-of select="substring($startDate, 1, 7)"/>
+                            <time class="dtstart" style="display:block">
+                                <xsl:value-of select="concat('{{ &quot;', $startDate, '-01&quot; | date: &quot;%B %Y&quot; }}')"/>
                             </time>
-                            <xsl:text> - </xsl:text>
+                            <xsl:text disable-output-escaping="yes"> &amp;ndash; </xsl:text>
                             <time class="dtend">
-                                <xsl:value-of select="substring($endDate, 1, 7)"/>
+                                <xsl:value-of select="concat('{{ &quot;', $endDate, '-01&quot; | date: &quot;%B %Y&quot; }}')"/>
                             </time>
                         </xsl:otherwise>
                     </xsl:choose>
@@ -117,18 +185,19 @@ title: About
             </xsl:choose>
         </xsl:variable>
 
-        <div class="row vevent">
+        <div class="row vevent" style="padding-top: 0.5em; padding-bottom: 0.5em">
             <xsl:attribute name="id">
                 <xsl:value-of select="@id"/>
             </xsl:attribute>
 
-            <div class="col-date col-md-2">
+            <div class="col-date col-sm-3" style="text-align:right">
                 <xsl:copy-of select="$formattedDate" />
             </div>
 
-            <div class="col-details col-sm-10">
+            <div class="col-details col-sm-9">
                 <xsl:copy-of select="$summary"/>
 
+                <!--
                 <a data-toggle="collapse" class="pull-right" title="Show details">
                     <xsl:attribute name="href">
                         <xsl:value-of select="concat('#', @id, '-details')"/>
@@ -139,9 +208,11 @@ title: About
                         <xsl:text>Show details</xsl:text>
                     </span>
                 </a>
+                -->
             </div>
         </div>
 
+        <!--
         <details class="collapse">
             <xsl:attribute name="id">
                 <xsl:value-of select="concat(@id, '-details')"/>
@@ -149,22 +220,42 @@ title: About
 
             <xsl:copy-of select="$details"/>
         </details>
+        -->
     </xsl:template>
 
     <xsl:template match="cv:Education">
+        <xsl:variable name="degreeTypeAbbr">
+            <xsl:choose>
+                <xsl:when test="cv:degreeType = 'Bachelor of Science'">B.Sc.</xsl:when>
+                <xsl:when test="cv:degreeType = 'Master of Science'">M.Sc.</xsl:when>
+            </xsl:choose>
+        </xsl:variable>
+
         <xsl:call-template name="CV_Entry">
             <xsl:with-param name="startDate" select="cv:eduStartDate"/>
             <xsl:with-param name="endDate" select="cv:eduEndDate"/>
             <xsl:with-param name="summary">
-                <span property="cv:degreeType">
-                    <xsl:value-of select="cv:degreeType"/>
-                </span>
                 <xsl:if test="cv:eduMajor">
-                    <xsl:text> in </xsl:text>
                     <span property="cv:eduMajor">
                         <xsl:value-of select="cv:eduMajor"/>
                     </span>
+                    <xsl:text>, </xsl:text>
                 </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="$degreeTypeAbbr != ''">
+                        <abbr property="cv:degreeType">
+                            <xsl:attribute name="title">
+                                <xsl:value-of select="cv:degreeType"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="$degreeTypeAbbr"/>
+                        </abbr>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <span property="cv:degreeType">
+                            <xsl:value-of select="cv:degreeType"/>
+                        </span>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:text> (</xsl:text>
                 <xsl:value-of select="cvx:eduGrade"/>
                 <xsl:text>) </xsl:text>
@@ -194,14 +285,16 @@ title: About
                 <span property="cv:jobTitle">
                     <xsl:value-of select="cv:jobTitle"/>
                 </span>
-                <br class="hidden-md hidden-lg" />
-                <xsl:text> at </xsl:text>
-                <a class="url fn org">
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="cv:employedIn/cv:Company/cv:URL"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="cv:employedIn/cv:Company/cv:Name"/>
-                </a>
+                <xsl:if test="cv:employedIn">
+                    <br class="hidden-md hidden-lg" />
+                    <xsl:text> at </xsl:text>
+                    <a class="url fn org">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="cv:employedIn/cv:Company/cv:URL"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="cv:employedIn/cv:Company/cv:Name"/>
+                    </a>
+                </xsl:if>
             </xsl:with-param>
             <xsl:with-param name="details">
                 <xsl:copy-of select="cv:jobDescription/node()"/>

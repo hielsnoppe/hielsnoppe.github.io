@@ -12,9 +12,9 @@ who had also collected several years of experience with her previous partner Kat
 In the following three years we advanced from Adult C to Adult S Standard and had our share of good placings.
 Highlights of our career include winning the Berlin regional championships in Adult A Standard in 2013 and the reception to [Team Berlin][kader].
 Currently we are working hard to improve our dancing, to strengthen our position in regional and to reach out for the next round in national and international competitions.
-Besides we enjoy doing show performances from time to time.
+Besides we enjoy doing [show performances](#shows) from time to time.
 
-Find a list of selected competition results and show performances below and see our profiles on [Dancesportinfo][dsinfo] and on the [World DanceSport Federation website][wdsf].
+Find a list of [selected competition results](#results) and show performances below and see our profiles on [Dancesportinfo][dsinfo] and on the [World DanceSport Federation website][wdsf].
 
 [tskeller]: http://tanzschulekeller.de
 [blausilber]: http://blau-silber-berlin.de
@@ -23,7 +23,17 @@ Find a list of selected competition results and show performances below and see 
 [wdsf]: http://www.worlddancesport.org/Couple/Detail/Niels_Hoppe_and_Annalena_Franke-548741
 [kader]: http://www.ltv-berlin.de/de/sport/leistungssport/kader/paare
 
-## Competition results
+## <a name="results"></a>Competition results
+
+### 2017
+
+**41-44th place**
+WDSF International Open Standard at [Blaues Band der Spree][blauesband]
+
+### 2016
+
+**4th place**
+Adult S Standard at the Berlin regional championships
 
 ### 2015
 
@@ -77,7 +87,7 @@ Adult B Standard at the Berlin regional championships
 [tab]: http://tanz-akademie-berlin.de
 [michel]: http://example.com/#TODO
 
-## Show performances
+## <a name="shows"></a>Show performances
 
 ### 20XX
 

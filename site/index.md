@@ -1,5 +1,5 @@
 ---
-layout: card1
+layout: card
 card:
   signature:
     src: assets/images/hoppe.png
