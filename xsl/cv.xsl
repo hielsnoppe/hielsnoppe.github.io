@@ -37,41 +37,41 @@ title: About
                 <xsl:copy-of select="cv:cvDescription/*"/>
 
                 <div class="row">
-                    <dl class="col-sm-6">
+                    <dl class="col-sm-6 col-sm-offset-1">
                         <div class="row">
-                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Born:</dt>
-                            <dd class="col-details col-sm-6">June 8, 1991</dd>
+                            <dt class="col-date col-sm-4" style="text-align:right;font-weight:normal">Born:</dt>
+                            <dd class="col-details col-sm-8">June 8, 1991</dd>
                         </div>
 
                         <div class="row">
-                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Address:</dt>
-                            <dd class="col-details col-sm-6">Odenwaldstr. 9<br />DE - 12161 Berlin</dd>
+                            <dt class="col-date col-sm-4" style="text-align:right;font-weight:normal">Address:</dt>
+                            <dd class="col-details col-sm-8">Odenwaldstr. 9, 12161 Berlin</dd>
                         </div>
 
                         <div class="row">
-                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Email:</dt>
-                            <dd class="col-details col-sm-6">
-                                <a href="/contact">Contact form</a>
+                            <dt class="col-date col-sm-4" style="text-align:right;font-weight:normal">Email:</dt>
+                            <dd class="col-details col-sm-8">
+                                <a href="/contact">Please see the contact form</a>
                             </dd>
                         </div>
 
                         <div class="row">
-                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Phone:</dt>
-                            <dd class="col-details col-sm-6">
+                            <dt class="col-date col-sm-4" style="text-align:right;font-weight:normal">Phone:</dt>
+                            <dd class="col-details col-sm-8">
                                 <a href="tel:+493053142577">+49 30 53 14 25 77</a>
                             </dd>
                         </div>
 
                         <div class="row">
-                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">Mobile:</dt>
-                            <dd class="col-details col-sm-6">
+                            <dt class="col-date col-sm-4" style="text-align:right;font-weight:normal">Mobile:</dt>
+                            <dd class="col-details col-sm-8">
                                 <a href="/contact">On request</a>
                             </dd>
                         </div>
 
                         <div class="row">
-                            <dt class="col-date col-sm-6" style="text-align:right;font-weight:normal">LinkedIn:</dt>
-                            <dd class="col-details col-sm-6">
+                            <dt class="col-date col-sm-4" style="text-align:right;font-weight:normal">LinkedIn:</dt>
+                            <dd class="col-details col-sm-8">
                                 <a href="https://www.linkedin.com/in/hielsnoppe">@hielsnoppe</a>
                             </dd>
                         </div>
@@ -86,7 +86,7 @@ title: About
                         -->
                     </dl>
 
-                    <div class="col-md-6" style="text-align:center">
+                    <div class="col-md-5" style="text-align:center">
                         <img src="http://placehold.it/150x200"/>
                     </div>
                 </div>
