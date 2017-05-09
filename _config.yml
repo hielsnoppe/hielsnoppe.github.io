@@ -24,7 +24,7 @@ paginate_path: 'articles/page/:num'
 
 # Custom configuration
 
-source: ./
+#source: ./
 destination: /var/www/public
 #exclude:
 #  - bower.json
@@ -41,7 +41,3 @@ languages: # site.languages
 
 # Theming
 theme: jekyll-theme-nielshoppe
-#layouts_dir: _themes/jekyll-theme-nielshoppe/_layouts
-#includes_dir: _themes/jekyll-theme-nielshoppe/_includes
-#sass:
-#  sass_dir: _themes/jekyll-theme-nielshoppe/_sass
