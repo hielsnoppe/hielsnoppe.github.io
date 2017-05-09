@@ -1,30 +1,49 @@
 ---
-layout: page
-title: Legal stuff
+layout: sheet
+title: Impressum - Legal notice
 ---
 
-<p class="message">
+<h1>Impressum
+    <small>Legal notice</small>
+</h1>
+
 Since this is a German website, this information is available in German language only.
-</p>
 
-# Kontakt / Contact
+<h2>Anbieterkennzeichnung
+    <small>Contact</small>
+</h2>
 
-Angaben gemäß § 5 TMG, sowie §27 a Umsatzsteuergesetz
+<dl>
+    <div class="row">
+        <dt class="col-date col-sm-3" style="text-align:right;font-weight:normal">Anschrift:</dt>
+        <dd class="col-details col-sm-9">
+            Niels Hoppe, Odenwaldstr. 9, 12161 Berlin
+        </dd>
+    </div>
 
-<address>
-Niels Hoppe<br />
-Odenwaldstr. 9<br />
-DE - 12161 Berlin
-</address>
+    <div class="row">
+        <dt class="col-date col-sm-3" style="text-align:right;font-weight:normal">E-Mail:</dt>
+        <dd class="col-details col-sm-9">
+            <a href="/contact">Siehe Kontaktformular</a>
+        </dd>
+    </div>
 
-**Telefon:** +4930 531 425 77<br />
-**E-Mail:** <ygf9k4ge@nielshoppe.de><br />
-**Steuernummer:** 24/353/00314
+    <div class="row">
+        <dt class="col-date col-sm-3" style="text-align:right;font-weight:normal">Telefon:</dt>
+        <dd class="col-details col-sm-9">
+            <a href="tel:+493053142577">+49 30 53 14 25 77</a>
+        </dd>
+    </div>
+</dl>
+
+Angaben gemäß [§ 5 TMG](https://www.gesetze-im-internet.de/tmg/__5.html), als Kleinunternehmer gemäß [§ 19 UStG](https://www.gesetze-im-internet.de/ustg_1980/__19.html) ohne Umsatzsteueridentifikationsnummer.
 
 Der Nutzung von insbesondere im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien widerspreche ich hiermit ausdrücklich.
 Ich behalte mir ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
 
-# Urheberrechte / Copyright
+<h2>Urheberrechte
+    <small>Copyright</small>
+</h2>
 
 Die von mir erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.
 Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
@@ -35,7 +54,9 @@ Insbesondere kennzeichne ich Inhalte Dritter als solche.
 Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitte ich um einen entsprechenden Hinweis.
 Bei Bekanntwerden von Rechtsverletzungen werde ich betroffene Inhalte umgehend entfernen.
 
-# Haftungsausschluss / Disclaimer
+<h2>Haftungsausschluss
+    <small>Disclaimer</small>
+</h2>
 
 Die Inhalte meiner Seiten wurden mit größter Sorgfalt erstellt.
 Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann ich jedoch keine Gewähr übernehmen.
@@ -53,7 +74,9 @@ Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
 Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar.
 Bei Bekanntwerden von Rechtsverletzungen werde ich derartige Links umgehend entfernen.
 
-# Privatsphare und Datenschutz / Privacy
+<h2>Privatsphäre und Datenschutz
+    <small>Privacy</small>
+</h2>
 
 Die Nutzung meiner Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich.
 Soweit auf meinen Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis.
@@ -62,12 +85,13 @@ Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergeg
 Ich weise darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.
 Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 
+<!--
 <p class="message">
 Die folgenden Datenschutzerklärungen der Dienste Facebook, Google Analytics, Google +1 und Twitter gebe ich vorsorglich ab, da ich nicht ausschließen kann, dass die Dienste auf anderen Webangeboten verwendet werden, für deren von mir erstellte Inhalte dieses Impressum ebenfalls gilt.
 <strong>Auf von mir betriebenen Angeboten finden diese Dienste zugunsten Ihrer Privatsphäre keine Anwendung.</strong>
 </p>
 
-## Datenschutzerklärung für die Nutzung von Google Analytics
+<h3>Datenschutzerklärung für die Nutzung von Google Analytics</h3>
 
 Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. ("Google"). Google Analytics verwendet sog. "Cookies", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt.
 
@@ -89,10 +113,11 @@ Wenn Sie unsere Seiten besuchen, wird über das Plugin eine direkte Verbindung z
 
 Wenn Sie nicht wünschen, dass Facebook den Besuch unserer Seiten Ihrem Facebook-Nutzerkonto zuordnen kann, loggen Sie sich bitte aus Ihrem Facebook-Benutzerkonto aus.
 
-## Datenschutzerklärung für die Nutzung von Twitter
+<h3>Datenschutzerklärung für die Nutzung von Twitter</h3>
 
 Auf unseren Seiten sind Funktionen des Dienstes Twitter eingebunden. Diese Funktionen werden angeboten durch die Twitter Inc., 795 Folsom St., Suite 600, San Francisco, CA 94107, USA. Durch das Benutzen von Twitter und der Funktion "Re-Tweet" werden die von Ihnen besuchten Webseiten mit Ihrem Twitter-Account verknüpft und anderen Nutzern bekannt gegeben. Dabei werden auch Daten an Twitter übertragen.
 
 Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Twitter unter http://twitter.com/privacy.
 
 Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter http://twitter.com/account/settings ändern.
+-->

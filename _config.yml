@@ -1,20 +1,47 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+#markdown: redcarpet
+markdown: kramdown
+#highlighter: pygments
+
+gems: [jekyll-paginate]
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 relative_permalinks: false
 
 # Setup
-title:            'Niels Hoppe'
-description:      'Another guy with a website.'
-url:              http://www.nielshoppe.de
-baseurl:          /
+title: 'Niels Hoppe'
+description: 'Another guy with a website.'
+url: http://www.nielshoppe.de
+baseurl: /
 
 author:
-  name:           'Niels Hoppe'
-  url:            http://www.nielshoppe.de
+  name: 'Niels Hoppe'
+  url: http://www.nielshoppe.de
 
-paginate:         5
-paginate_path:    'articles/page/:num'
+paginate: 5
+paginate_path: 'articles/page/:num'
+
+# Custom configuration
+
+#source: site
+destination: /var/www/public
+#exclude:
+#  - bower.json
+#  - Gemfile
+#  - Gemfile.lock
+#  - LICENSE.md
+#  - README.md
+#  - Vagrantfile
+
+my_theme: my-website-theme
+languages: # site.languages
+  - abbr: DE
+  - abbr: EN
+  - abbr: FR
+
+# Theming
+layouts_dir: _themes/my-website-theme/_layouts
+includes_dir: _themes/my-website-theme/_includes
+sass:
+  sass_dir: _themes/my-website-theme/_sass
