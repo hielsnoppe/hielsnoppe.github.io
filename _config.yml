@@ -41,7 +41,7 @@ languages: # site.languages
   - abbr: FR
 
 # Theming
-layouts_dir: _themes/my-website-theme/dist/_layouts
-includes_dir: _themes/my-website-theme/dist/_includes
+layouts_dir: _themes/my-website-theme/_layouts
+includes_dir: _themes/my-website-theme/_includes
 sass:
-  sass_dir: _themes/my-website-theme/dist/_sass
+  sass_dir: _themes/my-website-theme/_sass
