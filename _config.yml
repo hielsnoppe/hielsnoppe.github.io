@@ -24,7 +24,7 @@ paginate_path: 'articles/page/:num'
 
 # Custom configuration
 
-source: site
+#source: site
 destination: /var/www/public
 #exclude:
 #  - bower.json
