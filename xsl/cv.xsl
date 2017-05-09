@@ -87,7 +87,9 @@ title: About
                     </dl>
 
                     <div class="col-md-5" style="text-align:center">
+                        <!--
                         <img src="http://placehold.it/150x200"/>
+                        -->
                     </div>
                 </div>
             </header>
