@@ -34,14 +34,14 @@ destination: /var/www/public
 #  - README.md
 #  - Vagrantfile
 
-my_theme: my-website-theme
+my_theme: jekyll-theme-nielshoppe
 languages: # site.languages
   - abbr: DE
   - abbr: EN
   - abbr: FR
 
 # Theming
-layouts_dir: _themes/my-website-theme/_layouts
-includes_dir: _themes/my-website-theme/_includes
+layouts_dir: _themes/jekyll-theme-nielshoppe/_layouts
+includes_dir: _themes/jekyll-theme-nielshoppe/_includes
 sass:
-  sass_dir: _themes/my-website-theme/_sass
+  sass_dir: _themes/jekyll-theme-nielshoppe/_sass
