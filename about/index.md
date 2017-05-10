@@ -12,4 +12,6 @@ Feel free to have a look at <a href="/about/cv">my curriculum vitae</a> and to <
 
 ## ... this website
 
-Nice, eh? Work in progress, though. Or should I say "<a href="https://en.wikipedia.org/wiki/Perpetual_beta">perpetual beta</a>"?
+As my personal website it also acts as my playground and is in "<a href="https://en.wikipedia.org/wiki/Perpetual_beta">perpetual beta</a>".
+It is based on [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com).
+<!--You can read more about the technical background of it on its [project page](/projects/my-website).-->

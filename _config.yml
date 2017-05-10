@@ -27,12 +27,10 @@ paginate_path: 'articles/page/:num'
 #source: ./
 destination: /var/www/public
 #exclude:
-#  - bower.json
 #  - Gemfile
 #  - Gemfile.lock
 #  - LICENSE.md
 #  - README.md
-#  - Vagrantfile
 
 languages: # site.languages
   - abbr: DE
