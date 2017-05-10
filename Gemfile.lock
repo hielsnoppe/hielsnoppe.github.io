@@ -20,7 +20,7 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-theme-nielshoppe (0.0.0)
+    jekyll-theme-nielshoppe (0.0.5)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -46,7 +46,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-paginate
-  jekyll-theme-nielshoppe (= 0.0.0)
+  jekyll-theme-nielshoppe
   jekyll-watch
   kramdown
   redcarpet
