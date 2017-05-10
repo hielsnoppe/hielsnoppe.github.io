@@ -1,0 +1,129 @@
+.layout-card {
+
+& {
+
+    text-transform: uppercase;
+}
+
+#card {
+
+    @extend .container;
+
+    background-color: white;
+}
+
+.card {
+
+    @include paper;
+
+    width: 17em;
+    height: 10.4em;
+
+    font-size: 2em;
+    transform: rotate(-2deg);
+
+	ul.table-cell li {
+
+	    display: inline;
+	}
+
+	#card-motif {
+
+	    line-height: 1.1em;
+
+        .left {
+
+    	    width: 30.9%;
+    	    text-align: right;
+        }
+
+        .middle {
+
+    	    width: 38.2%;
+    	    text-align: center;
+
+    	    padding: 0 0.3em 0.1em 0.65em;
+    	    padding: 0 0.1em 0 0.9em;
+        }
+
+        .right {
+
+    	    width: 30.9%;
+    	    text-align: left;
+        }
+	}
+
+	a {
+	    border-bottom: 1px dotted lightgrey;
+	    text-decoration: none;
+	}
+
+	a:link,
+	a:visited
+	{
+	    color: black;
+	}
+
+	a:hover {
+	    border-color: darkgrey;
+	}
+
+
+	#card {
+
+	    font-size: 40%;
+
+        .top {
+
+            height: 3em;
+
+            & > ul {
+
+        	    text-align: right;
+        	    padding: 0 1em;
+            }
+
+        	a:link,
+        	a:visited
+        	{
+        	    color: lightgrey;
+        	}
+
+        	a:hover {
+        	    color: darkgrey;
+        	}
+        }
+
+        .bottom {
+
+            height: 3em;
+
+        	& > div {
+
+        	    text-align: center;
+        	    padding: 0 1em;
+        	}
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+    #card {
+        @include paper;
+
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}
+
+}

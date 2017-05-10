@@ -1,0 +1,50 @@
+.layout-card {
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+& {
+
+    //@extend .container;
+    width: 34em;
+}
+
+#content {
+
+    background-color: white;
+    text-transform: uppercase;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+    & {
+
+        // https://www.w3.org/Style/Examples/007/center
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #content {
+        @include paper;
+
+        width: 34em;
+        height: 20.8em;
+
+        font-size: 1em;
+        //transform: rotate(-2deg);
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}
+
+}
