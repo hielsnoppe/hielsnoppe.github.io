@@ -4,6 +4,8 @@ title: Ballroom Dancing
 description: Like a dancer
 ---
 
+# Ballroom dancing
+
 I started dancing at [Tanzschule Dieter Keller][tskeller] in 2005 at the age of 14.
 Less than two years later I joined [Blau-Silber Berlin][blausilber] and first participated in a competition with my former partner Lili in 2008.
 In 2010 I joined [Rot-Gold Berlin][rotgold] and since then I am dancing with [Annalena][facebook],
