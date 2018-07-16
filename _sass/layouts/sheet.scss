@@ -6,7 +6,6 @@
 & {
 
     @extend .container;
-
 }
 
 #content {
@@ -14,26 +13,43 @@
     background-color: white;
 }
 
+.cv-info {
+    @include make-col-ready();
+    @include make-col(8, 12);
+}
+.cv-image {
+    @include make-col-ready();
+    @include make-col(4, 12);
+}
+.cv-info-label {
+    @include make-col-ready();
+    @include make-col(3, 8);
+}
+.cv-info-value {
+    @include make-col-ready();
+    @include make-col(5, 8);
+}
+
 /* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm-min) {
+@include media-breakpoint-up(sm) {
 
     #content {
         @include paper;
 
-        padding: $padding-large-vertical * 5 $padding-large-horizontal * 3.5;
+        padding: $spacer * 4 $spacer * 3.5;
     }
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: $screen-md-min) {
+@include media-breakpoint-up(md) {
 
     #content {
-        padding: $padding-large-vertical * 5 $padding-large-horizontal * 3.5;
+        // padding: $padding-large-vertical * 5 $padding-large-horizontal * 3.5;
     }
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: $screen-lg-min) {
-}
+// @media (min-width: $screen-lg-min) {
+// }
 
 }

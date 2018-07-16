@@ -2,7 +2,7 @@
 markdown: kramdown
 #highlighter: pygments
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Permalinks
 permalink: pretty
@@ -37,4 +37,4 @@ languages: # site.languages
   - abbr: FR
 
 # Theming
-theme: jekyll-theme-nielshoppe
+#theme: jekyll-theme-nielshoppe

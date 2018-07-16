@@ -1,21 +1,55 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><base href="/"/><title>{{ page.title }} - {{ site.title }}</title><link rel="stylesheet" href="/assets/styles/main.css"></head><body><div class="layout-sheet"><header class="row"><div class="col-sm-9"><nav class="navbar navbar-outside"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><!--'Niels Hoppe')--><ul class="nav navbar-nav"><li><a href="/">Home</a></li><li><a href="/about">About</a></li><li><a href="/articles">Articles</a></li><li><a href="/contact">Contact</a></li></ul><ul class="nav navbar-nav navbar-right"><!--+bs-nav-link('#') DE
-+bs-nav-link('#') EN
-+bs-nav-link('#') FR
-+bs-nav-link('#')
-    //img(src="http://www.w3.org/RDF/icons/rdf_flyer.24", alt="RDF Resource Description Framework Flyer Icon")
-    img(src="assets/images/rdf_flyer.24.gif", alt="RDF Resource Description Framework Flyer Icon")--></ul></div></div></nav></div></header><div class="row"><div class="col-sm-9" id="content"><form id="contact" action="" method="post"><div class="form-horizontal"><div class="form-group"><div class="col-sm-10 col-sm-offset-2"><h1>{{ page.title }}</h1></div></div><div class="form-group"><label class="control-label col-sm-2">To</label><div class="col-sm-10"><p class="form-control-static">Niels Hoppe &lt;<a href="mailto:zt58afzz@nielshoppe.de">zt58afzz@nielshoppe.de</a>&gt;
-<a href="#asdf1234" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="asdf1234"><i class="glyphicon glyphicon-info-sign"></i></a></p><p class="help-block collapse" id="asdf1234"><!--| Please do not add this adress to your adress book!-->In order to fight spam this adress changes regularly.
-Messages to expired adresses will get lost and do not reach me.
-You can save the adress that I use when I reply to your message.</p></div></div><div class="form-group"><div class="col-sm-10 col-sm-offset-2"><p class="form-control-static">The contact form is not yet implemented. Please write me an email instead.</p></div></div></div></form><!--  include ../partials/contact-basic.pug
-  include ../partials/contact-attachment.pug
-
-#schautanz.collapse
-  include ../partials/contact-attachment-schautanz.pug
-
-.form-horizontal
-  .form-group
-    .col-sm-10.col-sm-offset-2
-      button.btn.btn-primary(type="submit") Send message
-      button.btn.btn-default.pull-right(type="reset") Discard--></div><div class="col-sm-3" id="sidebar"></div></div><footer class="row"><div class="col-sm-9"><nav class="navbar navbar-outside"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><p class="navbar-text">&copy; 2006 - 2017 Niels Hoppe</p><ul class="nav navbar-nav navbar-right"><li><a href="/legal">Legal notice</a></li></ul></div></div></nav></div></footer></div><!--script(src="//code.jquery.com/jquery-1.12.0.min.js")
-script(src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
-script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous")--><script src="/assets/scripts/jquery-1.12.0.min.js"></script><script src="/assets/scripts/jquery-migrate-1.2.1.min.js"></script><script src="/assets/scripts/bootstrap-3.3.6.min.js"></script><script src="/assets/scripts/yellow.js"></script></body></html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta>
+<base href="/">
+<title>{{ page.title }} - {{ site.title }}</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<link rel="stylesheet" href="/assets/styles/main.css">
+<style type="text/css">
+.fa-gravatar:before {
+    content: "\f1a0";
+}
+.fa-gravatar {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+                </style>
+</head>
+<body>
+<div class="layout-sheet">
+<header class="row"><div class="col-sm-9" style="align:center"><nav xmlns="" xmlns:bs="http://vocab.nielshoppe.de/twbs/4.1#" class="navbar navbar-expand-lg navbar-outside"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expand="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse"><ul class="navbar-nav ">
+<li class="nav-item "><a class="nav-link" href="/">Home</a></li>
+<li class="nav-item "><a class="nav-link" href="/about">About</a></li>
+<li class="nav-item "><a class="nav-link" href="/articles">Articles</a></li>
+<li class="nav-item "><a class="nav-link" href="/contact">Contact</a></li>
+</ul></div></nav></div></header><div class="row"><div id="content" class="col-sm-9" style="align:center"><form id="contact" action="" method="post">
+<div xmlns="" xmlns:bs="http://vocab.nielshoppe.de/twbs/4.1#" class="form-group row"><div class="col-sm-10 offset-sm-2"><h1>{{ page.title }}</h1></div></div>
+<div xmlns="" xmlns:bs="http://vocab.nielshoppe.de/twbs/4.1#" class="form-group row">
+<label class="control-label col-sm-2">To</label><div class="col-sm-10">
+<p class="form-control-static">
+                            Niels Hoppe
+                            &lt;<a href="mailto:zt58afzz@nielshoppe.de">zt58afzz@nielshoppe.de</a>&gt;
+                            <a href="#asdf1234" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="asdf1234"><i class="fas fa-info-circle"></i></a></p>
+<div class="collapse" id="asdf1234"><p class="form-text text-muted">
+                            In order to fight spam this adress changes regularly.
+                            Messages to expired adresses will get lost and do not reach me.
+                            You can save the adress that I use when I reply to your message.
+                        </p></div>
+</div>
+</div>
+<div xmlns="" xmlns:bs="http://vocab.nielshoppe.de/twbs/4.1#" class="form-group row"><div class="col-sm-10 offset-sm-2"><p class="form-control-static">
+                        The contact form is not yet implemented.
+                        Please write me an email instead.
+                        </p></div></div>
+</form></div></div>
+<footer class="row"><div class="col-sm-9" style="align:center"><nav xmlns="" xmlns:bs="http://vocab.nielshoppe.de/twbs/4.1#" class="navbar navbar-expand-lg navbar-outside"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expand="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+<span class="navbar-text mr-auto">&copy; 2006 - 2018 Niels Hoppe</span><ul class="navbar-nav "><li class="nav-item "><a class="nav-link" href="/legal">Legal notice</a></li></ul>
+</div></nav></div></footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script><script src="/assets/scripts/yellow.js"></script>
+</body>
+</html>

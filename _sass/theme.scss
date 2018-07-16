@@ -1,4 +1,34 @@
-@import 'bootstrap';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+// Required bootstrap modules
+@import "bootstrap-scss/functions";
+@import "bootstrap/variables"; // Customized variables
+// @import "bootstrap-scss/variables";
+@import "bootstrap-scss/mixins";
+@import "bootstrap/mixins";
+
+// Optional bootstrap modules
+@import "bootstrap-scss/utilities";
+@import "bootstrap-scss/reboot";
+@import "bootstrap-scss/type";
+@import "bootstrap-scss/images";
+@import "bootstrap-scss/code";
+@import "bootstrap-scss/grid";
+@import "bootstrap-scss/nav";
+@import "bootstrap-scss/navbar";
+@import "bootstrap/navbar";
+
+p a {
+    background-color: $gray-300;
+
+    &:hover,
+    &:focus {
+        background-color: $yellow-light;
+    }
+}
 
 .table {
 
@@ -30,7 +60,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background: $yellow-warm; /* Old browsers */
+    background: $gold; /* Old browsers */
     //background: -moz-radial-gradient(center, ellipse cover,  $yellow-warm 0%, #efd215 100%); /* FF3.6+ */
     //background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, $yellow-warm), color-stop(100%, #efd215)); /* Chrome, Safari4+ */
     //background: -webkit-radial-gradient(center, ellipse cover, $yellow-warm 0%, #efd215 100%); /* Chrome10+, Safari5.1+ */
