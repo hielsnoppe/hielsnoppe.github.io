@@ -15,19 +15,37 @@
 
 .cv-info {
     @include make-col-ready();
-    @include make-col(8, 12);
+
+    @include media-breakpoint-up(md) {
+        @include make-col(8, 12);
+    }
 }
 .cv-image {
     @include make-col-ready();
-    @include make-col(4, 12);
+
+    @include media-breakpoint-up(md) {
+        @include make-col(4, 12);
+
+        order: 13;
+    }
 }
 .cv-info-label {
     @include make-col-ready();
-    @include make-col(3, 8);
+
+    font-weight: normal;
+
+    @include media-breakpoint-up(md) {
+        @include make-col(3, 8);
+
+        text-align: right;
+    }
 }
 .cv-info-value {
     @include make-col-ready();
-    @include make-col(5, 8);
+
+    @include media-breakpoint-up(md) {
+        @include make-col(5, 8);
+    }
 }
 
 /* Small devices (tablets, 768px and up) */

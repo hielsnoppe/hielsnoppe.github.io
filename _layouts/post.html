@@ -21,19 +21,19 @@
 </head>
 <body>
 <div class="layout-sheet-sidebar">
-<header class="row"><div class="col-sm-9" style="align:center"><nav xmlns="" xmlns:bs="http://vocab.nielshoppe.de/twbs/4.1#" class="navbar navbar-expand-lg navbar-outside"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expand="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse"><ul class="navbar-nav ">
+<header class="row"><div class="col-md-9" style="align:center"><nav xmlns="" xmlns:bs="http://vocab.nielshoppe.de/twbs/4.1#" class="navbar navbar-expand-lg navbar-outside"><button class="navbar-toggler" type="button" data-toggle="collapse" aria-expand="false" aria-label="Toggle navigation" aria-controls="navbar-header-x" data-target="#navbar-header-x"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbar-header-x"><ul class="navbar-nav ">
 <li class="nav-item "><a class="nav-link" href="/">Home</a></li>
 <li class="nav-item "><a class="nav-link" href="/about">About</a></li>
 <li class="nav-item "><a class="nav-link" href="/articles">Articles</a></li>
 <li class="nav-item "><a class="nav-link" href="/contact">Contact</a></li>
 </ul></div></nav></div></header><div class="row">
-<div id="content" class="col-sm-9">{{ content }}</div>
-<div id="sidebar" class="col-sm-3">
+<div id="content" class="col-md-9">{{ content }}</div>
+<div id="sidebar" class="col-md-3">
 <h2>Related Posts</h2>
 <ul>{% for post in site.related_posts limit:3 %}<li><a href="%7B%20post.url%20%7D">{{ post.title }}<small>{{ post.date | date_to_string }}</small></a></li>{% endfor %}</ul>
 </div>
 </div>
-<footer class="row"><div class="col-sm-9" style="align:center"><nav xmlns="" xmlns:bs="http://vocab.nielshoppe.de/twbs/4.1#" class="navbar navbar-expand-lg navbar-outside"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expand="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+<footer class="row"><div class="col-md-9" style="align:center"><nav xmlns="" xmlns:bs="http://vocab.nielshoppe.de/twbs/4.1#" class="navbar navbar-expand-lg navbar-outside navbar-expand"><button class="navbar-toggler" type="button" data-toggle="collapse" aria-expand="false" aria-label="Toggle navigation" aria-controls="navbar-footer-x" data-target="#navbar-footer-x"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbar-footer-x">
 <span class="navbar-text mr-auto">&copy; 2006 - 2018 Niels Hoppe</span><ul class="navbar-nav "><li class="nav-item "><a class="nav-link" href="/legal">Legal notice</a></li></ul>
 </div></nav></div></footer>
 </div>
